@@ -279,7 +279,7 @@ Machine-Learning/
 * Compare different ML algorithms
 * Master model evaluation and validation
 * Develop practical ML problem-solving skills
-* Prepare for **Machine Learning / AI Engineer technical interviews**
+
 
 ---
 
