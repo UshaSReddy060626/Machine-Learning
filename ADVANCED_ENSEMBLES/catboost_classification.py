@@ -6,14 +6,11 @@ data = pd.DataFrame({
     "bought": [0, 0, 1, 1, 1, 1]})
 X = data[["age", "city"]]
 y = data["bought"]
-model = CatBoostClassifier(
-    iterations=100,
-    learning_rate=0.1,
+model = CatBoostClassifier(iterations=100,learning_rate=0.1,
     depth=6,
     loss_function="Logloss",
     verbose=False,
-    random_seed=42
-)
+    random_seed=42)
 model.fit(X, y, cat_features=["city"])
 new_data = pd.DataFrame({
     "age": [28],
