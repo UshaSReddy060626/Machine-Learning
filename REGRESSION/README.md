@@ -340,6 +340,7 @@ MAE / MSE / RMSE / R²
 * RMSE is expressed in the target's units.
 * R² measures explained variation relative to a mean-prediction baseline.
 * Always evaluate regression models on unseen test data.
+
 ---
 
 
